@@ -1,0 +1,71 @@
+
+
+.container{
+    background-color: #3D74B6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+#Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #EAC8A6;
+    width: 55%;
+    border-radius: 20px;
+    border: 3px  #DC3C22;
+    border-style: dashed;
+}
+
+#Header h2{
+    margin-left: 20px;
+    color: #DC3C22;
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+#Header img{
+    height: 80%;
+}
+
+#counter{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #EAC8A6;
+    width: 55%;
+    border-radius: 20px;
+    border: 3px  #DC3C22;
+    border-style: dashed;
+}
+
+#output{
+    width: 60%;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+#output p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #DC3C22;
+}
+
+#buttonClass button{
+    background-color: #3D74B6;
+    height: 50px;
+    width: 80px;
+}
