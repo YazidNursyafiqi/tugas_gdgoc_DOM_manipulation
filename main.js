@@ -11,6 +11,11 @@ function tambah(){
 }
 
 function kurang(){
-    count++;
+    count--;
+    update();
+}
+
+function reset(){
+    count = 0;
     update();
 }
